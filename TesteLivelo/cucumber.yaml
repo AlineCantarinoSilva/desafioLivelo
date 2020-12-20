@@ -1,0 +1,7 @@
+---
+default: -p json -p bdd
+html: --format html --out=relatorio/features.html
+json: --format json --out=relatorio/features.json
+dot: --format progress
+bdd: --format pretty
+
